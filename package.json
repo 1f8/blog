@@ -4,6 +4,7 @@
   "description": "1F8 Developer Blog",
   "version": "0.2.0",
   "author": "1F8",
+  "license": "MIT",
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -p 1881",
@@ -42,7 +43,6 @@
     "typography-theme-wordpress-2016": "^0.16.19"
   },
   "devDependencies": {
-    "eslint-config-react-app": "^5.2.1"
-  },
-  "license": "0BSD"
+    "@1f8/eslint-config-react": "^1.0.6"
+  }
 }

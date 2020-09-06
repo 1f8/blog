@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@1f8/eslint-config-react@^1.0.6":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@1f8/eslint-config-react/-/eslint-config-react-1.0.6.tgz#c91c2c6037c7c472940ae1fdf19877067d425e5e"
+  integrity sha512-c/M81cWQk0zPvr9q8UcoPICtOATLhJuLiWoL9ecQZr9w+/qFD87M14mKO/0zEkFvJJ/k/bFpKW9PX0Pz3EqH8g==
+
 "@ardatan/aggregate-error@0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@ardatan/aggregate-error/-/aggregate-error-0.0.1.tgz#1403ac5de10d8ca689fc1f65844c27179ae1d44f"

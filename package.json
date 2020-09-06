@@ -7,6 +7,7 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -p 1881",
+    "lint": "eslint --ext js,jsx .",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
@@ -30,6 +31,7 @@
     "gatsby-transformer-remark": "^2.8.29",
     "gatsby-transformer-sharp": "^2.5.13",
     "prismjs": "^1.21.0",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
@@ -39,6 +41,8 @@
     "typography": "^0.16.19",
     "typography-theme-wordpress-2016": "^0.16.19"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "eslint-config-react-app": "^5.2.1"
+  },
   "license": "0BSD"
 }

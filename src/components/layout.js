@@ -49,7 +49,7 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © 2020, Built with{' '}💖
+        ©1F8, 2020, Built with{' '}💖
       </footer>
     </div>
   )

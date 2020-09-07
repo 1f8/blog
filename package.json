@@ -8,10 +8,11 @@
   "scripts": {
     "build": "gatsby build",
     "dev": "gatsby develop -p 1881",
-    "lint": "eslint --ext js,jsx .",
+    "lint": "eslint --ignore-path .gitignore --ext js,jsx .",
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "deploy": "yarn build && firebase deploy",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {

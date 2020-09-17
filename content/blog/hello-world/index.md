@@ -1,6 +1,6 @@
 ---
 title: Hello World
-date: "2015-05-01T22:12:03.284Z"
+date: "2020-09-07T09:33:50.148Z"
 description: It's fitting the first blog post to a development site is about Hello World
 author: Kwa
 ---

@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Build & Deploy
+    name: build
     runs-on: ubuntu-latest
     env:
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -43,5 +43,22 @@ jobs:
     - run: yarn build
       name: Build frontend
       working-directory: ${{env.working-dir}}
-    - name: Deploy to Firebase
-      run: firebase deploy --token=${{ secrets.FIREBASE_TOKEN }}
+    - uses: actions/upload-artifact@master
+      with:
+        name: public
+        path: public
+  deploy:
+    name: deploy
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/download-artifact@master
+      with:
+        name: public
+        path: public
+    - uses: w9jds/firebase-action@master
+      with:
+        args: deploy --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}

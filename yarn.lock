@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@1f8/eslint-config-react@^1.0.6":
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/@1f8/eslint-config-react/-/eslint-config-react-1.0.6.tgz#c91c2c6037c7c472940ae1fdf19877067d425e5e"
-  integrity sha512-c/M81cWQk0zPvr9q8UcoPICtOATLhJuLiWoL9ecQZr9w+/qFD87M14mKO/0zEkFvJJ/k/bFpKW9PX0Pz3EqH8g==
+"@1f8/eslint-config-react@^1.1.0":
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/@1f8/eslint-config-react/-/eslint-config-react-1.1.0.tgz#b97138814942688f16fa007b1b76c752f944e631"
+  integrity sha512-YAx1e2SxlqejzGwoG6wYA1ejnT/u9eSC27BJKKFWMxHXWRfbX+TtATXifhC59X4s6Tq4QeR4SavKrom0AqtqNg==
 
 "@ardatan/aggregate-error@0.0.1":
   version "0.0.1"
@@ -5327,6 +5327,11 @@ eslint-plugin-react-hooks@^1.7.0:
   version "1.7.0"
   resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-1.7.0.tgz#6210b6d5a37205f0b92858f895a4e827020a7d04"
   integrity sha512-iXTCFcOmlWvw4+TOE8CLWj6yX1GwzT0Y6cUfHHZqWnSk144VmVIRcVGtUAzrLES7C798lmvnt02C7rxaOX1HNA==
+
+eslint-plugin-react-hooks@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-react-hooks/-/eslint-plugin-react-hooks-4.1.2.tgz#2eb53731d11c95826ef7a7272303eabb5c9a271e"
+  integrity sha512-ykUeqkGyUGgwTtk78C0o8UG2fzwmgJ0qxBGPp2WqRKsTwcLuVf01kTDRAtOsd4u6whX2XOC8749n2vPydP82fg==
 
 eslint-plugin-react@^7.20.2:
   version "7.20.6"

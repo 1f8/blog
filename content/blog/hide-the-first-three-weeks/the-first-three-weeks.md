@@ -1,6 +1,6 @@
 ---
 title:The First 3 Weeks
-date: 2020-10-06T04:20:54.194Z
+date: "2020-10-06T04:20:54.194Z"
 description:入社から3週間の主な研修内容 
 author: hide
 ---

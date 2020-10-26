@@ -1,7 +1,9 @@
+---
 title: Grid Layout, Flexbox Layout, and Box Model  
 date: "2020-10-26T07:18:49.034Z"
 description: グリッドレイアウト、フレックスボックスレイアウト、ボックスモデルについて。
 author: Hide
+---
 
 
 今回は、最近学習した、グリッドレイアウト、フレックスボックスレイアウト、ボックスモデルについて書いていきます。

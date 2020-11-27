@@ -1,11 +1,11 @@
 ---
-title: No More, Redux
+title: Redux Alternatives
 date: "2020-10-04T17:46:55.148Z"
 description: Going to go through the steps of de-reduxing a project
 author: Kwa
 ---
 
-## No More, Redux
+## Redux Alternatives
 
 In this blog, I'll be discussing why I prefer to move away from redux and alternatives.
 

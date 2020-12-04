@@ -9,7 +9,7 @@ author: Hide
 
 ここ数週間はtailwindというフレームワークに取り組んでいます。  
 tailwindでは、cssをhtmlのclass属性の値として書き入れます。  
-デファルトとして用意されているtailwindの値は、モダンデザインでよく使用されているCSSを厳選して、端的に表したものになっています。  
+デフォルトとして用意されているtailwindの値は、モダンデザインでよく使用されているCSSを厳選して、端的に表したものになっています。  
 例えば、こんな感じです。  
 ```html
 <div class="h-32 max-w-screen-xl border-blue-400 border-8 rounded-xl bg-green-50">

@@ -1,7 +1,9 @@
-title: Self-introduction : Teru 
+---
+title: "Self-introduction : Teru"
 date: "2020-12-03T07:34:15.540Z"
 description: 自己紹介とトレーニングプログラムを1週間受けた所感について 
 author: Teru 
+---
 
 はじめまして。この度、株式会社1F8にてトレーニングプログラムを受講させて頂く事になりました、teruです。
 

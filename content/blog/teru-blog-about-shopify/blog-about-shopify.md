@@ -1,7 +1,7 @@
 ---
 title: "Shopifyって何？"
 date: "2021-10-22T07:34:15.540Z"
-description: 自己紹介とトレーニングプログラムを1週間受けた所感について
+description: Shopifyについての概要と、Shopifyを使うメリットや特徴について
 author: Izumi
 ---
 

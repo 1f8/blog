@@ -16,7 +16,7 @@ const Contact = () => {
         <div style={{
           textAlign: 'center',
         }}> 
-          <a href='https://1f8.co.jp/'>
+          <a href='https://1f8.co.jp/#contact-form'>
             <button type='button' style={{
           backgroundColor: 'rgb(47, 44, 44)',
           padding: '0.3rem 1.5rem',

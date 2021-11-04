@@ -8,7 +8,7 @@ module.exports = {
     description: 'ウェブ開発について',
     siteUrl: 'https://blog.1F8.dev/',
     social: {
-      twitter: '1f8',
+      twitter: '1f816',
     },
   },
   plugins: [
@@ -49,6 +49,7 @@ module.exports = {
       },
     },
     'gatsby-transformer-sharp',
+    'gatsby-plugin-image',
     'gatsby-plugin-sharp',
     'gatsby-plugin-feed',
     {

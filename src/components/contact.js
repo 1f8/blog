@@ -32,8 +32,8 @@ const Contact = () => {
         marginBottom: '1.6rem',
         marginTop: '2rem',
       }}>
-        <img src={bioImage} alt='A dinosaur' width={70}
-      height={70} style={{  marginBottom: '-1.3rem'}} />
+        <a href='https://1f8.co.jp/' style={{boxShadow: 'none'}}><img src={bioImage} alt='A dinosaur' width={70}
+      height={70} style={{  marginBottom: '-1.3rem'}} /></a>
         <div style={{
           paddingLeft: '1rem',
         }}>

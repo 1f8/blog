@@ -52,7 +52,7 @@ const Component = (props: Foo) {
 
 ## Modal status handling
 
-A modal has status like warn, info, success, and noramally each status has its own icon and stylings. ANT Design extracts status and styling out of component and creates a method which returns props merged with base props. [example - ANT Design confirm](https://github.com/ant-design/ant-design/blob/master/components/modal/confirm.tsx)
+A modal has status like warn, info, success, and noramally each status has its own icon. Each status has its own method which returns props already merged with base props. [example - ANT Design confirm](https://github.com/ant-design/ant-design/blob/master/components/modal/confirm.tsx)
 
 ```
 // Confirm modal
@@ -105,9 +105,40 @@ code from [ANT Design Modal](https://github.com/ant-design/ant-design/blob/maste
 
 ```
 
-**Use of React useRef, forwardRef and useImperativeHandle for a component with many contexts**
+**Use of React useRef, forwardRef and useImperativeHandle for a component with different contexts/child elements**
 
-This one was a bit tricky one. According to the react [documentation](https://reactjs.org/docs/hooks-reference.html#useref), `useRef` gets DOM's mutable vlaue and acts like a box with mutable value in it, and when you try to wrap a component with `ref` with another component, react doesn't pass the `ref` to the child component since `ref` is not a prop more like a `key`, so you need to use `forwardRef` to make sure it passes refs to the child components. `useImperativeHandle` is also used along with those refs to 
+According to the react [documentation](https://reactjs.org/docs/hooks-reference.html#useref), `useRef` gets DOM's mutable vlaue and acts like a box with mutable value in it, and when you try to wrap a component with `ref` with another component, react doesn't pass the `ref` to the child component since `ref` is not a prop, more like a `key`, so you need to use `forwardRef` to make sure it passes refs to the child components. `useImperativeHandle` is also used along with those refs to 
 
 
-ANT Design Modal components uses these plus  to pass removing of element when called.
+ANT Design Modal component uses these concepts and passes methods and context references. I thought it was really interesting to see this piece of code
+
+```
+const ElementsHolder = React.memo(
+  React.forwardRef<ElementsHolderRef>((_props, ref) => {
+    const [elements, patchElement] = usePatchElement();
+    React.useImperativeHandle(
+      ref,
+      () => ({
+        patchElement,
+      }),
+      [],
+    );
+    return <>{elements}</>;
+  }),
+);
+```
+
+this function is exported out as `contextHolder` which is part of what we can use as a library user. ElementsHolder inserts children and when closed, it removed them. `usePatchElement` all it does is sets the child element and returns a method to remove.
+
+```
+  const [modal, contextHolder] = Modal.useModal();
+
+  React.useEffect(() => {
+    modal.confirm({
+      // ...
+    });
+  }, []);
+
+  return <div>{contextHolder}</div>;
+
+```

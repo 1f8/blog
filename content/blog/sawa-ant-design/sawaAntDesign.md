@@ -1,16 +1,16 @@
 ---
-title: Ant Design
+title: Ant Design - Modal
 date: "2022-04-27T03:22:23.847Z"
-description: Learning about how ANT Design stucture their code.
+description: Learning about how ANT Design build their components.
 author: Sawa
 ---
 
-## Learning Ant Design Components Structure
+## Learning Ant Design Components ~ Modal
 
-I am learning about how Ant Design structured their code for components.
+I am learning about how Ant Design build their components, and I am hoping that at the end of this learning experience, I would be a better programmer.
 
 
-## component structure
+## Basic Component Structure
 
 Task Specific Component structure [example from ConfirmDialog](https://github.com/ant-design/ant-design/blob/master/components/modal/ConfirmDialog.tsx) 
 
@@ -142,3 +142,5 @@ this function is exported out as `contextHolder` which is part of what we can us
   return <div>{contextHolder}</div>;
 
 ```
+
+It took me a while to understand this contextHolder part since it's being passed around a lot. Once I understood what each piece of code was doing, I started to notice that each key component does one thing which is definitely how we want to structure our code. I will try to learn about Input component next.

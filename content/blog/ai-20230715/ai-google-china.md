@@ -1,13 +1,11 @@
 ---
-title: # The Future of Language Processing Google's Advances and China's OpenAI Rival / # 言語処理の未来：Googleの進歩と中国のOpenAIライバル
+title: The Future of Language Processing Google's Advances and China's OpenAI Rival / 言語処理の未来：Googleの進歩と中国のOpenAIライバル
 date: "2023-07-17T05:48:04.968Z"
 description: 「Googleと中国の百川智能、自然言語処理技術の進化に挑む」 / "Google and Baichuan Intelligence Spearhead the Revolution in Natural Language Processing"
 author: 1F8
 ---
 
 (English Version Below)
-
-# 言語処理の未来：Googleの進歩と中国のOpenAIライバル
 
 ![AI](https://source.unsplash.com/random/?artificial,intelligence)
 

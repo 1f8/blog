@@ -48,5 +48,8 @@
     "@1f8/eslint-config-react": "^1.1.0",
     "eslint-plugin-react-hooks": "^4.1.2",
     "firebase-tools": "^8.11.2"
+  },
+  "engines": {
+    "node": "14.x"
   }
 }

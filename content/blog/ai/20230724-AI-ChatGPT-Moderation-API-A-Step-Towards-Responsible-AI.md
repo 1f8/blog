@@ -1,7 +1,7 @@
 ---
 title: AIのChatGPTモデレーションAPI：責任あるAIへの一歩 / AI's ChatGPT Moderation API- A Step Towards Responsible AI
 date: "2023-07-24T03:48:36.978Z"
-description: 'AIと倫理：ChatGPTモデレーションAPIが責任あるAI使用を推進' / 'Making AI Communication Ethical- The Role of ChatGPT Moderation API'
+description: AIと倫理：ChatGPTモデレーションAPIが責任あるAI使用を推進 / Making AI Communication Ethical - The Role of ChatGPT Moderation API
 author: 1F8
 ---
 

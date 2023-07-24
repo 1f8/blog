@@ -1,7 +1,7 @@
 ---
 title: 知識の力：あなたのEコマースビジネスを推進する14冊の本 / The Power of Knowledge- 14 Books to Propel Your E-Commerce Business
 date: "2023-07-24T03:48:08.822Z"
-description: 'Eコマース成功への道！14冊の必読書籍' / 'Boost Your E-Commerce Business with These 14 Must-Read Books!'
+description: Eコマース成功への道！14冊の必読書籍 / Boost Your E-Commerce Business with These 14 Must-Read Books!
 author: 1F8
 ---
 

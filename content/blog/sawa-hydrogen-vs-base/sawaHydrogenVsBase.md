@@ -136,7 +136,6 @@ author: Sawa
 ## メモリ分析結果
 
 ### **BASEショップ:**
-![BASEベイスショップ分析ドーナッツチャート](https://github.com/1f8/blog/blob/master/content/assets/icons/iai-base-memory.png)
 
 - **合計メモリ**: 19,791 kB
   - コード: 8,988 kB
@@ -145,14 +144,17 @@ author: Sawa
   - 型付き配列: 1,016 kB
   - システムオブジェクト: 420 kB
 
+![BASEベイスショップ分析ドーナッツチャート](../../assets/iai-base-memory.png)
+
 ### **Shopify Hydrogenショップ:**
-![ショッピファイHydrogenショップ分析ドーナッツチャート](https://github.com/1f8/blog/blob/master/content/assets/icons/iai-hydrogen-memory.png)
 - **合計メモリ**: 16,065 kB
   - コード: 3,881 kB
   - 文字列: 809 kB
   - JS配列: 290 kB
   - 型付き配列: 675 kB
   - システムオブジェクト: 7,000 kB
+
+![ショッピファイHydrogenショップ分析ドーナッツチャート](../../assets/iai-hydrogen-memory.png)
 
 ## 分析と考察
 
